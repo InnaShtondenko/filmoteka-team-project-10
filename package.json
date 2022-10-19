@@ -1,15 +1,15 @@
 {
-  "name": "parcel-project-template",
+  "name": "filmoteka",
   "version": "2.0.0",
   "description": "",
-  "homepage": "https://innashtondenko.github.io/goit-js-hw-11/",
+  "homepage": "https://bokhvalovi.github.io/filmoteka",
   "scripts": {
     "start": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /goit-js-hw-11/"
+    "build": "parcel build src/*.html --public-url /filmoteka/"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/InnaShtondenko/goit-js-hw-11.git"
+    "url": "git+https://github.com/bokhvalovi/filmoteka.git"
   },
   "keywords": [],
   "author": "Alexander Repeta <alexander.repeta@gmail.com>",
@@ -18,25 +18,17 @@
     "url": "https://github.com/goitacademy/parcel-project-template/issues"
   },
   "dependencies": {
-    "@vimeo/player": "^2.17.1",
-    "axios": "^0.27.2",
-    "flatpickr": "^4.6.13",
-    "i": "^0.3.7",
+    "lodash": "^4.17.21",
     "lodash.debounce": "^4.0.8",
-    "lodash.throttle": "^4.1.1",
     "modern-normalize": "^1.1.0",
     "notiflix": "^3.2.5",
-    "npm": "^8.19.2",
-    "simplelightbox": "^2.10.3",
-    "spin.js": "^4.1.1"
+    "save": "^2.9.0"
   },
   "devDependencies": {
     "@parcel/transformer-sass": "^2.6.0",
-    "buffer": "^6.0.3",
     "parcel": "^2.6.0",
     "parcel-reporter-clean-dist": "^1.0.4",
-    "posthtml-include": "^1.7.4",
-    "process": "^0.11.10"
+    "posthtml-include": "^1.7.4"
   },
   "browserslist": "> 0.5%, last 2 versions, not dead"
 }
