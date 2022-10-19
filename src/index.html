@@ -1,34 +1,29 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Homework 11</title>
-   
-  </head>
- <body>
-  <header class="header">
-    <form class="search-form" id="search-form">
-      <input 
-        class="search-form__input"
-        type="text" 
-        name="searchQuery" 
-        autocomplete="off" 
-        placeholder="Search images..." 
-        />
+    <title>Filmoteka</title>
 
-      <button class="search-form__submit-btn" type="submit">Search</button>
-    </form>
-  </header>
-  <main>
-    <div class="container">
-      <div class="gallery"></div>
-    </div>
-    <div class="btnLoad">
-    <button type="button" class="load-more btn">Load more</button>
-    </div>
-  </main>
-  <script src="index.js" type="module"></script>
- </body>
+    <link rel="shortcut icon" href="/src/images/modal-footer/favicon/favicon_2.ico" type="image/x-icon">
+    <link rel="icon" href="/src/images/modal-footer/favicon/favicon_2.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./sass/index.scss" />
+
+  </head>
+  <body class="section">
+    <include src="./partials/header.html"></include>
+    <include src="./partials/filter.html"></include>
+    <include src="./partials/main.html"></include> 
+    <include src="./partials/spinner.html"></include>
+    <include src="./partials/footer.html"></include>
+    <include src="./partials/modal-footer.html"></include>
+    <include src="./partials/modal.html"></include>
+    <script type="module" src="./js/index-page/index.js" type="module"></script>
+  </body>
 </html>
