@@ -2,14 +2,14 @@
   "name": "filmoteka",
   "version": "2.0.0",
   "description": "",
-  "homepage": "https://bokhvalovi.github.io/filmoteka",
+  "homepage": "https://innashtondenko.github.io/filmoteka-team-project-10",
   "scripts": {
     "start": "parcel src/*.html",
     "build": "parcel build src/*.html --public-url /filmoteka/"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/bokhvalovi/filmoteka.git"
+    "url": "git+https://github.com/InnaShtondenko/filmoteka-team-project-10.git"
   },
   "keywords": [],
   "author": "Alexander Repeta <alexander.repeta@gmail.com>",
